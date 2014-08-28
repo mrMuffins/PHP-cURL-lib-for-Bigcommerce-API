@@ -11,10 +11,10 @@ class connection
 	 *
 	 * @var string stores data for the class
 	 */
-	static public $_path;
-	static private $_user;
-	static private $_token;
-	static private $_headers;
+	public $_path;
+	private $_user;
+	private $_token;
+	private $_headers;
 
 	/**
 	 * Sets $_path, $_user, $_token, $_headers upon class instantiation
